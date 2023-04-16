@@ -1,0 +1,46 @@
+﻿@model TheSpaceCofffeeAdmin.Models.TbTopping
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "AddTopping";
+    Layout = "~/Views/Shared/_Layout_Admin.cshtml";
+}
+
+<h1>Thêm Topping</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" asp-action="AddTopping">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MaTopping" class="control-label text-white">Mã Topping</label>
+                <input asp-for="MaTopping" class="form-control bg-secondary" />
+                <span asp-validation-for="MaTopping" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TenTopping" class="control-label text-white"> Tên Topping</label>
+                <input asp-for="TenTopping" class="form-control bg-secondary" />
+                <span asp-validation-for="TenTopping" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GiaBan" class="control-label text-white">Giá Bán</label>
+                <input asp-for="GiaBan" class="form-control bg-secondary" />
+                <span asp-validation-for="GiaBan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Anh" class="control-label text-white">Ảnh</label>
+                <input asp-for="Anh" type="file" class="form-control bg-secondary" />
+                <span asp-validation-for="Anh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Hoàn Thành" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Topping">Quay Về</a>
+</div>
+
+

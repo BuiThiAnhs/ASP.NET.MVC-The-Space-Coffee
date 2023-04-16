@@ -1,0 +1,40 @@
+﻿@model TheSpaceCofffeeAdmin.Models.TbTopping
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "EditTopping";
+    Layout = "~/Views/Shared/_Layout_Admin.cshtml";
+}
+
+<h1>Sửa Topping</h1>
+
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="EditTopping">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaTopping" />
+            <div class="form-group">
+                <label asp-for="TenTopping" class="control-label "> Tên Topping</label>
+                <input asp-for="TenTopping" class="form-control bg-transparent" />
+                <span asp-validation-for="TenTopping" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GiaBan" class="control-label"> Giá Bán</label>
+                <input asp-for="GiaBan" class="form-control bg-transparent" />
+                <span asp-validation-for="GiaBan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Anh" class="control-label"> Ảnh</label>
+                <input asp-for="Anh" class="form-control bg-transparent" />
+                <span asp-validation-for="Anh" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value=" Lưu" class="btn btn-success rounded-pill m-2" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

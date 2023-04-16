@@ -1,0 +1,54 @@
+﻿@model TheSpaceCofffeeAdmin.Models.TbSanPham
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "AddProduct";
+    Layout = Layout = "~/Views/Shared/_Layout_Admin.cshtml";
+}
+
+<h1 class=" text-light">Thêm Sản Phẩm</h1>
+
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" asp-action="AddProduct">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group ">
+                <label asp-for="MaSanPham" class="control-label text-white">Mã Sản Phẩm</label>
+                <input asp-for="MaSanPham" class="form-control bg-secondary" />
+                <span asp-validation-for="MaSanPham" class="text-danger"></span>
+            </div>
+            <div class="form-group ">
+                <label asp-for="TenSanPham" class="control-label text-white">Tên Sản Phẩm</label>
+                <input asp-for="TenSanPham" class="bg-secondary form-control" />
+                <span asp-validation-for="TenSanPham" class="text-danger"></span>
+            </div>
+            <div class="form-group ">
+                <label asp-for="GiaBan" class="control-label text-white">Giá Bán</label>
+                <input asp-for="GiaBan" class="bg-secondary form-control" />
+                <span asp-validation-for="GiaBan" class="text-danger"></span>
+            </div>
+            <div class="form-group ">
+                <label asp-for="HinhAnh" class="control-label text-white"> Hình Ảnh</label>
+                <input type="file" name="imageFile" asp-for="HinhAnh" class="bg-secondary form-control" />
+                <span asp-validation-for="HinhAnh" class="text-danger"></span>
+            </div>
+            <div class="form-group ">
+                <label asp-for="GhiChu" class=" control-label text-white">Ghi Chú</label>
+                <input asp-for="GhiChu" class="bg-secondary form-control" />
+                <span asp-validation-for="GhiChu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaNhomSp" class="control-label text-white">Mã Nhóm Sản Phẩm</label>
+                <select asp-for="MaNhomSp" class="bg-secondary form-control" asp-items="ViewBag.MaNhomSp"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value=" Hoàn Thành" class="btn btn-success rounded-pill" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ListProducts">Back to List</a>
+</div>
+
+

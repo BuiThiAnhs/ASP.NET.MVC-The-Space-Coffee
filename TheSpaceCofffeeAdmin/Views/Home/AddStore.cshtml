@@ -1,0 +1,54 @@
+﻿@model TheSpaceCofffeeAdmin.Models.TbCuaHang
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "AddStore";
+    Layout = "~/Views/Shared/_Layout_Admin.cshtml";
+}
+
+<h1>Thêm Cửa Hàng</h1>
+
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" asp-action="AddStore">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MaCuaHang" class="control-label text-white"></label>
+                <input asp-for="MaCuaHang" class="form-control bg-secondary" />
+                <span asp-validation-for="MaCuaHang" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TenCuaHang" class="control-label text-white"></label>
+                <input asp-for="TenCuaHang" class="form-control bg-secondary" />
+                <span asp-validation-for="TenCuaHang" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiaChi" class="control-label text-white"></label>
+                <input asp-for="DiaChi" class="form-control bg-secondary" />
+                <span asp-validation-for="DiaChi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoDienThoai" class="control-label text-white"></label>
+                <input asp-for="SoDienThoai" class="form-control bg-secondary" />
+                <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label text-white"></label>
+                <input asp-for="Email" class="form-control bg-secondary" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fanpage" class="control-label text-white"></label>
+                <input asp-for="Fanpage" class="form-control bg-secondary  />
+                <span asp-validation-for="Fanpage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value=" Hoàn Thành" class="btn btn-success rounded-pill" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

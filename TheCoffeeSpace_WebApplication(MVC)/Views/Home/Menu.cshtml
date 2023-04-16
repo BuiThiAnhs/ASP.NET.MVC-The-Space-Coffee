@@ -1,0 +1,227 @@
+﻿@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<TbSanPham>;
+
+@{
+    ViewData["Title"] = "Menu";
+    Layout = "~/Views/Shared/_LayoutDripcafe.cshtml";
+}
+<header>
+    <!-- Shopping Cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <div class="cart__closeBtn">
+                <i class="fas fa-window-close"></i>
+            </div>
+            <h2>
+                <i class="fa fa-cart-arrow-down"></i>
+                <span class="span-primary">Shopping</span> Cart
+                <i class="fa fa-cart-arrow-down"></i>
+            </h2>
+
+            <!-- JS will add items here -->
+            <div class="item1-display"></div>
+            <div class="item2-display"></div>
+            <div class="item3-display"></div>
+            <div class="item4-display"></div>
+            <div class="item5-display"></div>
+            <div class="item6-display"></div>
+            <div class="item7-display"></div>
+            <div class="item8-display"></div>
+            <div class="item9-display"></div>
+            <div class="item10-display"></div>
+            <div class="item11-display"></div>
+            <div class="item12-display"></div>
+            <div class="total"></div>
+        </div>
+    </div>
+    <!--Variables containing class-->
+    @{
+        string[] overView = {"one__view-overlay", "two__view-overlay", "three__view-overlay", "four__view-overlay", "five__view-overlay", "six__view-overlay", "seven__view-overlay", "eight__view-overlay", "nine__view-overlay", "ten__view-overlay", "eleven__view-overlay", "twelve__view-overlay" };
+        string[] classView = {"one__view", "two__view", "three__view", "four__view", "five__view", "six__view", "seven__view", "eight__view", "nine__view", "ten__view", "eleven__view", "twelve__view" };
+        string[] closeView = {"one__view__closeBtn", "two__view__closeBtn", "three__view__closeBtn", "four__view__closeBtn", "five__view__closeBtn", "six__view__closeBtn", "seven__view__closeBtn", "eight__view__closeBtn", "nine__view__closeBtn", "ten__view__closeBtn", "eleven__view__closeBtn", "twelve__view__closeBtn" };
+        string[] contentView = {"one__view-content", "two__view-content", "three__view-content", "four__view-content", "five__view-content", "six__view-content", "seven__view-content", "eight__view-content", "nine__view-content", "ten__view-content", "eleven__view-content", "twelve__view-content" };
+        int j = 0;
+    }
+    <!--Display product details from database-->
+    @foreach(var items in Model){
+          <div class="@overView[j].ToString()">
+            <div class="@classView[j].ToString()">
+              <div class="@closeView[j].ToString()">
+                <i class="fas fa-window-close"></i>
+              </div>
+              <div class="@contentView[j].ToString()">
+                <h2>
+                  <i class="fas fa-mug-hot"></i>
+                  <span class="span-primary">@items.TenSanPham</span>
+                  <i class="fas fa-mug-hot"></i>
+                </h2>
+                <div class="description">
+                  @items.Mota
+                  <br />
+
+                  Pro Tip: @items.GhiChu
+                </div>
+                    <img src=@Url.Content("../img/img_products/" + items.HinhAnh) alt="The product is currently not available" />
+                <div class="nutritional_info">
+                  <h2><span class="span-primary">Nutritional</span> Information</h2>
+                  <div class="bar-large">Serving Size 16 fl oz</div>
+                  <div class="bar-medium">
+                    <b>Calories</b> @items.Calories
+                    <span class="span-right">Calories from Fat 0</span>
+                  </div>
+                  <div class="bar-small">
+                    <div class="span-align-right">% Daily Value *</div>
+                  </div>
+                  <div class="bar-small"><b>Total Fat</b> @items.TotalFat g</div>
+                  <div class="bar-small">
+                        <div class="indent">Saturated Fat @items.SaturatedFat 0 g</div>
+                  </div>
+                  <div class="bar-small">
+                    <div class="indent">Trans Fat 0 g</div>
+                  </div>
+                  <div class="bar-small"><b>Cholesterol</b> @items.Cholesterol mg</div>
+                  <div class="bar-small">
+                    <b>Sodium</b> @items.Sodium mg <span class="span-right">0%</span>
+                  </div>
+                  <div class="bar-small">
+                    <b>Total Carbohydrates</b> @items.TotalCarbohydrates g
+                    <span class="span-right">1%</span>
+                  </div>
+                  <div class="bar-small">
+                    <div class="indent">Dietary Fiber 0 g</div>
+                  </div>
+                  <div class="bar-small"><div class="indent">@items.Sugars g</div></div>
+                  <div class="bar-small">
+                    <b>Protein</b> @items.Protein g <span class="span-right">2%</span>
+                  </div>
+                  * 2,000 calories a day is used for general nutrition advice, but
+                  calorie needs vary.
+                </div>
+
+                <div class="ingredients">
+                  <h2>Ingredients</h2>
+                    @items.Ingredients
+                </div>
+
+                <div class="allergens">
+                  <h2>Allergens</h2>
+                  Not available for this item
+                </div>
+              </div>
+            </div>
+          </div>
+           if(j == 11){
+                j = 0;
+            }
+            else{
+            j++;
+           }
+      }
+     <!--EnD-->
+</header>
+
+<section class="menu">
+    <!--Start Promotion Banners-->
+    <div class="pic-area">
+        <div class="pic-area-text">
+            <h2>Limited Time Offer:</h2>
+            <h1>20% Off Any Large Size Drink!</h1>
+            <h3>Large size (16 fl oz)</h3>
+        </div>
+    </div>
+    <!--EnD-->
+    <div class="main-area">
+        <!--Start Category-->
+        <div class="category-panel">
+            <ul>
+             <li><a class="dropdown-item" asp-controller="Home" asp-action="Menu" asp-route-target="all">Tất cả</a></li>
+              @await Component.InvokeAsync("MenuCategory")
+            </ul>
+        </div>
+        <!--End Category-->
+        <div class="product-panel">
+            <div class="flex">
+                <!--Product-->
+                <!--Variables containing class-->
+                @{
+                    string[] view = {"one__view__openBtn", "two__view__openBtn", "three__view__openBtn", "four__view__openBtn", "five__view__openBtn", "six__view__openBtn", "seven__view__openBtn", "eight__view__openBtn", "nine__view__openBtn", "ten__view__openBtn", "eleven__view__openBtn", "twelve__view__openBtn"};
+                    string[] cart = {"one__cart__button", "two__cart__button", "three__cart__button", "four__cart__button", "five__cart__button", "six__cart__button", "seven__cart__button", "eight__cart__button", "nine__cart__button", "ten__cart__button", "eleven__cart__button", "twelve__cart__button"};
+                    int i = 0;
+                }
+                @foreach(var items in Model){
+                <div class="box">
+                    <div class="img-container">
+                        <img src= @Url.Content("../img/img_products/" + items.HinhAnh)  alt="The product is currently not available" />
+                        <div class="box__btns">
+                            <a href="#!" class="box__btn @view[i].ToString()">
+                                View
+                            </a>
+                                <a href="#!" class="box__btn cart_mess @cart[i].ToString()">
+                                Add to Cart
+                            </a>
+                         </div>
+                    </div>
+                    <h2>@items.TenSanPham</h2>
+                        <h3>@(items.GiaBan.Value.ToString("n0")) VND</h3>  
+                    </div>
+                if(i == 11){
+                        i = 0;
+                    }
+                    else{
+                   i++;
+                   }
+            
+                }   
+            </div>
+            @Html.PagedListPager(Model,page=>Url.Action("Menu",new {page=page}))
+        </div>
+
+     </div>
+    <div class="pop">
+        <div class="message">Sản phẩm đã được thêm vào giỏ hàng</div>
+    </div>
+    <!--Variables containing class-->
+    @{
+        string[] iCart = { "one1-cart-item", "two2-cart-item", "three3-cart-item", "four4-cart-item", "five5-cart-item", "six6-cart-item", "seven7-cart-item", "eight8-cart-item", "nine9-cart-item", "ten10-cart-item", "eleven11-cart-item", "twelve12-cart-item" };
+        string[] iRemove = { "remove-item-1", "remove-item-2", "remove-item-3", "remove-item-4", "remove-item-5", "remove-item-6", "remove-item-7", "remove-item-8", "remove-item-9", "remove-item-10", "remove-item-11", "remove-item-12" };
+        string[] iUp = {"item1Up", "item2Up", "item3Up", "item4Up", "item5Up", "item6Up", "item7Up", "item8Up", "item9Up", "item10Up", "item11Up", "item12Up"};
+        string[] iDown = {"item1Down", "item2Down", "item3Down", "item4Down", "item5Down", "item6Down", "item7Down", "item8Down", "item9Down", "item10Down", "item11Down", "item12Down"};
+        string[] iCounter = { "item1Counter", "item2Counter", "item3Counter", "item4Counter", "item5Counter", "item6Counter", "item7Counter", "item8Counter", "item9Counter", "item10Counter", "item11Counter", "item12Counter",};
+        string[] iAmount = { "item-amount1", "item-amount2", "item-amount3", "item-amount4", "item-amount5", "item-amount6", "item-amount7", "item-amount8", "item-amount9", "item-amount10", "item-amount11", "item-amount12"};
+        string[] iPrice = { "item-price1", "item-price2", "item-price3", "item-price4", "item-price5", "item-price6", "item-price7", "item-price8", "item-price9", "item-price10", "item-price11", "item-price12" };
+        int k = 0;
+    }
+    <!--Product in Cart-->
+    <div class="itemInCart" style="display: none">
+        @foreach(var items in Model){
+            <div id="@iCart[k].ToString()">
+                <div class="@iCart[k].ToString()">
+                    <img src= @Url.Content("../img/img_products/" + items.HinhAnh)  alt="The product is currently not available" />
+                    <div>
+                        <h3><span class="span-primary">@items.TenSanPham</span></h3>
+                        <h4 id="@iPrice[k].ToString()">@(items.GiaBan.Value.ToString("c0")) VND</h4>
+                        <span class="@iRemove[k].ToString()" >Remove</span>
+                    </div>
+                    <div>
+                            <div class="@iUp[k].ToString()">
+                            <i class="fas fa-chevron-up"></i>
+                        </div>
+                            <p class="@iAmount[k].ToString()">${@iCounter[k].ToString()}</p>
+                            <div class="@iDown[k].ToString()">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            if (k == 11){
+                k = 0;
+            }
+            else{
+                k++;
+            }
+
+        }
+    </div>
+    <!--EnD-->
+
+

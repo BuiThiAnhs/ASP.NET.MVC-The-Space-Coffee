@@ -1,0 +1,153 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TheSpaceCofffeeAdmin
+build_property.RootNamespace = TheSpaceCofffeeAdmin
+build_property.ProjectDir = E:\2022_2023\2_2022_2023\web\TheSpaceCofffeeAdmin\TheSpaceCofffeeAdmin\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\2022_2023\2_2022_2023\web\TheSpaceCofffeeAdmin\TheSpaceCofffeeAdmin
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/AddListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRMaXN0SXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/AddPayAmount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRQYXlBbW91bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/AddStore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRTdG9yZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/AddStoreHouse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRTdG9yZUhvdXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/AddTopping.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRUb3BwaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/checks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjaGVja3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/EditPayAmount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0UGF5QW1vdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/EditProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/EditStore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0U3RvcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/EditTopping.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0VG9wcGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/FindPayAmount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5kUGF5QW1vdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/FindPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5kUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/FindProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5kUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/FindStore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5kU3RvcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/FindStoreHouse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5kU3RvcmVIb3VzZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/FindTopping.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5kVG9wcGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/ListAddItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0QWRkSXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/ListItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0SXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/ListProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0UHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/ListSubItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0U3ViSXRlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/PayAmount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXlBbW91bnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/Payment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/Store.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdG9yZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/StoreHouse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdG9yZUhvdXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Home/Topping.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUb3BwaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Shared/_Layout_Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRfQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2022_2023/2_2022_2023/web/TheSpaceCofffeeAdmin/TheSpaceCofffeeAdmin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ffv6xz4ft0

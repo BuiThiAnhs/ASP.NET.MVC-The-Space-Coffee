@@ -1,0 +1,965 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TheSpaceCofffeeAdmin.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TheSpaceCofffeeAdmin.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\Admin\\css\\style.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\americano-da.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\americano-da.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\americano-nong.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\americano-nong.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\bac-xiu-da.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\bac-xiu-da.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\bac-xiu-nong.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\bac-xiu-nong.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\banh-flan.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\banh-flan.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\ca-phe-den-nong.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\ca-phe-den-nong.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\ca-phe-den.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\ca-phe-den.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\ca-phe-sua-nong.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\ca-phe-sua-nong.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\cacao-nong.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\cacao-nong.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\capucchino-da.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\capucchino-da.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\capucchino-nong.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\capucchino-nong.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\caramel-macchiato-da.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\caramel-macchiato-da.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\caramel-macchiato-nong.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\caramel-macchiato-nong.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\cold-brew-sua-tuoi.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\cold-brew-sua-tuoi.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\cold-brew-truyen-thong.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\cold-brew-truyen-thong.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\dao.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\dao.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\dau-do.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\dau-do.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\espresso-da.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\espresso-da.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\espresso-nong.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\espresso-nong.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\hong-tra-chanh.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\hong-tra-chanh.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\hong-tra.png",
+      "PackagePath": "staticwebassets\\Admin\\images\\hong-tra.png"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\kem-pho-mai-macchiato.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\kem-pho-mai-macchiato.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\latte-da.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\latte-da.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\latte-nong.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\latte-nong.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\matcha-dau-do.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\matcha-dau-do.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\matcha.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\matcha.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\nha-dam.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\nha-dam.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\nhan.webp",
+      "PackagePath": "staticwebassets\\Admin\\images\\nhan.webp"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\nuoc-cam-ep.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\nuoc-cam-ep.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\nuoc-dau-ep.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\nuoc-dau-ep.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\nuoc-tao-ep.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\nuoc-tao-ep.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\pudding-trung.webp",
+      "PackagePath": "staticwebassets\\Admin\\images\\pudding-trung.webp"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\sinh-to-chanh.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\sinh-to-chanh.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\sinh-to-dau.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\sinh-to-dau.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\sinh-to-xoai.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\sinh-to-xoai.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\sot-caramel.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\sot-caramel.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\sua-chua-dau.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\sua-chua-dau.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\sua-chua-man.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\sua-chua-man.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\sua-tuoi.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\sua-tuoi.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\thach-ca-phe.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\thach-ca-phe.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-chanh.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-chanh.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-dao-buoi.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-dao-buoi.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-dao-dau-tay.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-dao-dau-tay.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-dao-sua.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-dao-sua.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-dao.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-dao.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-dua.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-dua.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-hoa-hong.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-hoa-hong.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-lai.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-lai.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-man-hat-sen.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-man-hat-sen.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-nhan.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-nhan.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-o-long-dau.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-o-long-dau.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-o-long-sua.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-o-long-sua.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-sua-bac-ha.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-sua-bac-ha.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-sua-dau-tay.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-sua-dau-tay.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-sua-matcha.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-sua-matcha.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-sua-o-long.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-sua-o-long.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-sua-so-co-la.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-sua-so-co-la.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-sua.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-sua.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-vai.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-vai.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tra-xoai.jpeg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tra-xoai.jpeg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tran-chau-den.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tran-chau-den.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\tran-chau-trang.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\tran-chau-trang.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\vai.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\vai.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\images\\whipped-cream.jpg",
+      "PackagePath": "staticwebassets\\Admin\\images\\whipped-cream.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\img\\bg.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\bg.png"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\Admin\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\img\\users.png",
+      "PackagePath": "staticwebassets\\Admin\\img\\users.png"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\Admin\\js\\main.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\Admin\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\Admin\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\Admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\Admin\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\2022_2023\\2_2022_2023\\web\\TheSpaceCofffeeAdmin\\TheSpaceCofffeeAdmin\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.TheSpaceCofffeeAdmin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.TheSpaceCofffeeAdmin.props",
+      "PackagePath": "build\\TheSpaceCofffeeAdmin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.TheSpaceCofffeeAdmin.props",
+      "PackagePath": "buildMultiTargeting\\TheSpaceCofffeeAdmin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.TheSpaceCofffeeAdmin.props",
+      "PackagePath": "buildTransitive\\TheSpaceCofffeeAdmin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<TheSpaceCofffeeAdmin.Models.TbTopping>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "FindTopping";
+    Layout = "~/Views/Shared/_Layout_Admin.cshtml";
+}
+
+<h1>Tìm Kiếm Topping </h1>
+<div class="bg-secondary rounded h-75 p-4 m-1"> 
+    <table class="table table-danger">
+        <thead>
+            <tr>
+                <th>
+                    Tên Topping
+                </th>
+                <th>
+                    Giá Bán
+                </th>
+                <th>
+                    Ảnh
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TenTopping)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GiaBan)
+                    </td>
+                    <td>
+                        <img src="@Url.Content("../Admin/images/"+item.Anh)" alt=" Chua cap nhat" style="height:100px;width:100px" />
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-outline-dark"> <a asp-action="EditTopping" asp-route-IDTopping="@item.MaTopping">Sửa</a> </button>
+                        <button type="button" class="btn btn-outline-dark"> <a asp-action="Delete" asp-route-id="@item.MaTopping">Xóa</a> </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

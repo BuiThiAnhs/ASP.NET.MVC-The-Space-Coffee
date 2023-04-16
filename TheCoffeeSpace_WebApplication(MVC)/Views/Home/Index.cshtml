@@ -1,0 +1,159 @@
+﻿@model List<TbSanPham>
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_LayoutDripcafe";
+}
+<!--Loading-->
+<div class="load" id="load">
+    <img src="../img/loadcoffee.gif" alt="" class="load__gif">
+</div>
+
+<section class="home">
+    <!--Start Slider In Homepage-->
+    <div class="pic-area">
+        <div class="pic-area-text">
+            <div id="show-slider" class="hcg-slider">
+                <div class="hcg-slide-container">
+                    <div class="hcg-slider-body">
+                        <a class="hcg-slides animated" style="display:flex">
+                            <img src="../img/img_slides/1.jpg" alt="1.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="hcg-slide-dot-control"></div>
+            </div>
+        </div>
+    </div>
+    <!--EnD-->
+    <div class="main-area">
+        <!--Introduce The Space Coffee-->
+        <div class="section-area">
+            <div class="section-A">
+                <div class="who-we-are">
+                    <div class="who-images">
+                        <img class="img-who" src="../img/img_home/img1.jpg" alt="Image of a woman with a cup of coffee">
+                        <img class="img-who" src="../img/img_home/img2.jpg" alt="Image of two cups of coffee">
+                        <img class="img-who" src="../img/img_home/img3.jpg" alt="Coffee beans image">
+                    </div>
+                    <div class="who-text">
+                        <h1 class="title-who">WHO WE ARE</h1>
+                        <p class="desc-who">We are a team of dedicated coffee fans who celebrate exceptional coffee brands and roasters by providing our guests the unique opportunity to try coffee drinks of the highest quality.</p>
+                        <button class="button-learn black">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--EnD-->
+        <!--Introduce Product-->
+        <div class="section-area">
+            <div class="section-B">
+                  <div class="menu_list_home">
+	                <div class="menu_banner">
+                        <a title="BANNER" asp-controller="Home" asp-action="Menu" asp-route-target="CF"><img alt="ADVERTISING BANNER" class=" lazyloaded" src="https://file.hstatic.net/1000075078/file/banner_app_-_1029x720_edaa4031d7e048f49bf3647d686c701d.jpg" data-src="https://file.hstatic.net/1000075078/file/banner_app_-_1029x720_edaa4031d7e048f49bf3647d686c701d.jpg"></a>
+	                </div>
+	                
+                    @foreach(var items in Model){
+	                <div class="menu_item">
+		                <div class="menu_item_image">
+			                <a title="@items.TenSanPham" asp-controller="Home" asp-action="Menu" asp-route-target="CF">
+                                <img src= @Url.Content("../img/img_products/" + items.HinhAnh)  alt="The product is currently not available" /></a>
+			                <ul class="labels">
+			                </ul>
+		                </div>
+		                <div class="menu_item_info">
+                                <h3><a asp-controller="Home" asp-action="Menu" asp-route-target="CF" title="@items.TenSanPham">@items.TenSanPham</a></h3>
+                                <div class="price_product_item">@(items.GiaBan.Value.ToString("n0")) VND</div>
+		                </div>
+	                </div>
+                    }
+                </div>
+            </div>
+        </div>
+        <!--EnD-->
+        <!--Featured Blog-->
+        <div class="section-area">
+            <div class="section-C">
+                <div class="blog-container">
+                    <h2 class="blog_home_title">
+                        <img src="../img/favicon.png" style="width: 22px; margin-right: 10px; margin-bottom: 8px;">
+                            News
+                    </h2>
+                    <h3 class="blog_home_blogtitle">
+                        <a asp-controller="Home" asp-action="Blog">
+                            Latest Blog Post
+                        </a>
+                    </h3>
+                    <div class="blog_lists flex_wrap display_flex">
+                        <div class="blog_item flex_direction_column display_flex">
+                            <a class="article_item_image" href="" title="Tasty and Refreshing coffee">
+                                <div class="image">
+                                    <img src="../img/img_blog/blog-1.jpeg" alt="">
+                                </div>
+                            </a>
+                            <div class="article_item_info">
+                                <div class="article_published_at"><span>12/02/2023</span></div>
+                                <h3><a href="" title="Tasty and Refreshing coffee">Tasty and Refreshing coffee</a></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                            </div>
+                        </div>
+                        <div class="blog_item flex_direction_column display_flex">
+                            <a class="article_item_image" href="" title="Tasty and Refreshing coffee">
+                                <div class="image">
+                                    <img src="../img/img_blog/blog-2.jpeg" alt="">
+                                </div>
+                            </a>
+                            <div class="article_item_info">
+                                <div class="article_published_at"><span>12/02/2023</span></div>
+                                <h3><a href="" title="Tasty and Refreshing coffee">Tasty and Refreshing coffee</a></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                            </div>
+                        </div>
+                        <div class="blog_item flex_direction_column display_flex">
+                            <a class="article_item_image" href="" title="Tasty and Refreshing coffee">
+                                <div class="image">
+                                    <img src="../img/img_blog/blog-3.jpeg" alt="">
+                                </div>
+                            </a>
+                            <div class="article_item_info">
+                                <div class="article_published_at"><span>12/02/2023</span></div>
+                                <h3><a href="" title="Tasty and Refreshing coffee">Tasty and Refreshing coffee</a></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--EnD-->
+        <!--Roadmap -->
+        <div class="section-area">
+            <div class="map">
+            <iframe width="1275" height="520" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1275&amp;height=520&amp;hl=en&amp;q=Cau%20Giay%20Ha%20Noi+(The%20Space%20Coffee%20Location)&amp;t=&amp;z=9&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'></a>
+            <div class="map-desc">
+                <div class="desc-left">
+                    <div class="address">
+                        <h1 class="title-address">Address</h1>
+                        <p class="desc-address">3 Cau Giay, Lang Thuong, Dong Da, Ha Noi</p>
+                    </div>
+                    <div class="opening">
+                        <h1 class="title-opening">Opening Hours</h1>
+                        <p class="desc-opening">Monday – Friday</p>
+                        <p class="desc-hours">9am - 6pm</p>
+                        <p class="desc-opening">Saturday and Sunday</p>
+                        <p class="desc-hours">10am - 4pm</p>
+                    </div>
+                </div>
+                <div class="desc-right">
+                    <h1 class="title-get">Get In Touch</h1>
+                    <p class="desc-get">Leave your name and phone number, and we’ll contact you.</p>
+                    <label for="fullname">Full name</label>
+                    <input type="text" id="fullname" required="">
+                    <label for="telephone">Telephone</label>
+                    <input type="text" id="telephone" required="">
+                    <button class="button-request black" id="buttonRequest">SEND REQUEST</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--EnD-->
+    </div>

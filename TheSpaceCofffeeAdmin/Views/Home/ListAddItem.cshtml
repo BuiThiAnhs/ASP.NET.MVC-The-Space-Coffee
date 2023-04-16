@@ -1,0 +1,68 @@
+﻿@using TheSpaceCofffeeAdmin.Models;
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<NhapKho>;
+@{
+    ViewData["Title"] = "ListAddItem";
+    Layout = "~/Views/Shared/_Layout_Admin.cshtml";
+}
+<form class=" d-none d-md-block m-2 p-2">
+    <input class="w-75 form-control-sm bg-dark border-0" type="search" placeholder="Search">
+    <button type="button" class="btn btn-outline-secondary m-2 bg-light">Tìm Kiếm   </button>
+    <button type="button" class="btn btn-square btn-outline-secondary m-2"> <a asp-action="AddListItem"><i class="fa fa-plus"></i></a>  </button>
+</form>
+<h2>Danh Mục Nhập Vật Tư</h2>
+
+<div class="bg-secondary rounded h-75 p-4 m-1">
+
+
+    <button type="button" class="btn btn-square btn-outline-secondary m-2"> <a asp-action="AddProduct"><i class="fa fa-plus"></i></a>  </button>
+    <p>Them San Pham</p>
+
+    <table class="table table-dark">
+
+
+        <thead>
+
+            <tr>
+
+                <th>
+                    Mã Hóa Đơn Nhập
+                </th>
+                <th>
+                    Mã Vật Tư
+                </th>
+                <th>
+                    Ngày Lập
+                </th>
+                <th>
+                    Số Lượng Nhập
+                </th>
+                <th>
+                    Giá Nhập
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaHoaDonNhap</td>
+                    <td>@item.MaVatTu</td>
+                    <td>@item.NgayLap</td>
+                    <td>@item.SoLuongNhap</td>
+                    <td>@item.GiaNhap</td>
+                    <td>
+                        <button type="button" class="btn btn-outline-dark"> <a asp-action="EditProduct" asp-route-id="@item.MaHoaDonNhap">Edit</a> </button>
+                        <button type="button" class="btn btn-outline-dark"> <a asp-action="Details" asp-route-id="@item.MaHoaDonNhap">Details</a> </button>
+                        <button type="button" class="btn btn-outline-dark"> <a asp-action="Delete" asp-route-id="@item.MaHoaDonNhap">Delete</a> </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+@Html.PagedListPager(Model, page => Url.Action("ListAddItem", new {page= page}), new X.PagedList.Web.Common.PagedListRenderOptions(){
+            LiElementClasses = new List<String>{"bg-secondary page-item"},
+            PageClasses = new List<String>{"page-link"}
+        })

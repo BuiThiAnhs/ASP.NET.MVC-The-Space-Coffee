@@ -1,0 +1,65 @@
+﻿
+
+@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<TbVatTu>;
+
+@{
+    ViewData["Title"] = "FindStore";
+    Layout = "~/Views/Shared/_Layout_Admin.cshtml";
+}
+
+<h1> Truy Xuất Vật Tư </h1>
+<div class="bg-secondary rounded h-75 p-4 m-1">
+
+
+
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th>
+                    Mã Vật Tư
+                </th>
+                <th>
+                    Tên Vật Tư
+                </th>
+                <th>
+                    Đơn Vị Tính
+                </th>
+                <th>
+                    Ghi Chú
+                </th>
+                <th>
+                    Kho Vật Tư
+                </th>
+ 
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MaVatTu)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TenVatTu)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DonViTinh)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GhiChu)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TbKhoVatTuChes)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@Html.PagedListPager(Model, page => Url.Action("ListItem", new {page= page}), new X.PagedList.Web.Common.PagedListRenderOptions(){
+            LiElementClasses = new List<String>{"bg-secondary page-item"},
+            PageClasses = new List<String>{"page-link"}
+        })

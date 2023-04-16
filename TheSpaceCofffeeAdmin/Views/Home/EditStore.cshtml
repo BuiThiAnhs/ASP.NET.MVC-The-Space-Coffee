@@ -1,0 +1,51 @@
+﻿@model TheSpaceCofffeeAdmin.Models.TbCuaHang
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "EditStore";
+    Layout = "~/Views/Shared/_Layout_Admin.cshtml";
+}
+
+<h1>Sửa Cửa Hàng</h1>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" asp-action="EditStore">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaCuaHang" />
+            <div class="form-group">
+                <label asp-for="TenCuaHang" class="control-label text-white"> Tên Cửa Hàng</label>
+                <input asp-for="TenCuaHang" class="form-control bg-transparent" />
+                <span asp-validation-for="TenCuaHang" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiaChi" class="control-label text-white">Địa Chỉ </label>
+                <input asp-for="DiaChi" class="form-control bg-transparent" />
+                <span asp-validation-for="DiaChi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoDienThoai" class="control-label text-white">Số Điện Thoại</label>
+                <input asp-for="SoDienThoai" class="form-control bg-transparent" />
+                <span asp-validation-for="SoDienThoai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label text-white">Email</label>
+                <input asp-for="Email" class="form-control bg-transparent" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fanpage" class="control-label text-white">Fanpage</label>
+                <input asp-for="Fanpage" class="form-control bg-transparent" />
+                <span asp-validation-for="Fanpage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value=" Lưu" class="btn btn-success rounded-pill" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Store">Back to List</a>
+</div>
+

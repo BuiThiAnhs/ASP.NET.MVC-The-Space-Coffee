@@ -1,0 +1,6 @@
+﻿@model IEnumerable<TbNhomSanPham>
+
+@foreach (var target in Model)
+{
+    <li><a class="dropdown-item" asp-controller="Home" asp-action="Menu" asp-route-target="@target.MaNhomSp">@target.TenNhomSp</a></li>
+}

@@ -1,0 +1,37 @@
+﻿@model TheSpaceCofffeeAdmin.Models.TbHoaDonNhap
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "EditPayAmount";
+    Layout = "~/Views/Shared/_Layout_Admin.cshtml";
+}
+
+<h1>Sửa Hóa Đơn Nhập </h1>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="EditPayAmount">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MaHoaDonNhap" />
+            <div class="form-group">
+                <label asp-for="NgayLap" class="control-label">Ngày Lập </label>
+                <input asp-for="NgayLap" class="form-control bg-" />
+                <span asp-validation-for="NgayLap" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaNhaCungCap" class="control-label">Mã Nhà Cung Cấp</label>
+                <select asp-for="MaNhaCungCap" class="form-control" asp-items="ViewBag.MaNhaCungCap"></select>
+                <span asp-validation-for="MaNhaCungCap" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value=" Lưu" class="btn btn-success rounded-pill m-2" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="PayAmount">Back to List</a>
+</div>
+

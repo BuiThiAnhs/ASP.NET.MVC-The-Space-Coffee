@@ -1,0 +1,42 @@
+﻿@model TheSpaceCofffeeAdmin.Models.TbChiTietHdn
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "ListProducts";
+    Layout = Layout = "~/Views/Shared/_Layout_Admin.cshtml";
+}
+<h1>Thêm Vật Tư</h1>
+
+<h4>TbChiTietHdn</h4>
+<hr />
+<div class="row">
+        <form method="post" asp-action="AddListItem">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MaHoaDonNhap" class="control-label text-white">Mã Hóa Đơn Nhập</label>
+                <select asp-for="MaHoaDonNhap" class="form-control bg-secondary" asp-items="ViewBag.MaHoaDonNhap"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaVatTu" class="control-label text-white">Mã Vật Tư</label>
+                <select asp-for="MaVatTu" class="form-control bg-secondary" asp-items="ViewBag.MaVatTu"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoLuongNhap" class="control-label text-white">Số Lượng Nhập</label>
+                <input asp-for="SoLuongNhap" class="form-control bg-secondary" />
+                <span asp-validation-for="SoLuongNhap" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GiaNhap" class="control-label text-white">Giá Nhập</label>
+                <input asp-for="GiaNhap" class="form-control bg-secondary" />
+                <span asp-validation-for="GiaNhap" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-outline-secondary m-2" />
+            </div>
+        </form>
+    
+</div>
+
+<div>
+    <a asp-action="ListAddItem">Quay Về</a>
+</div>

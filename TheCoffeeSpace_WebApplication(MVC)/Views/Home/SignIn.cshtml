@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "SignIn";
+}
+<section class="sign-in">
+    <div class="pic-area">
+        <div class="pic-area-text">
+            <div id="login-box">
+                <form id="login-form" name="login-form"action="index.html" method="post">
+                <label>Username: </label> <br />
+                <input type="text" name="userid" id="userid" pattern="[a-zA-Z0-9]+" required />
+                <!-- minlength="10" does not work probably bc you need to use the submit button--><br />
+                <label>Password: </label> <br />
+                <input type="password" name="pswrd" id="pswrd" /><br />
+                <br />
+                </form>
+                <div id="username-display"></div>
+                <button class="btn-order" id="login-btn">Login</button>
+            </div>
+            <div class="icons">
+                <a href="#!">
+                <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#!">
+                <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#!">
+                <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#!">
+                <i class="fab fa-snapchat-square"></i>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">&copy; Copyright 2022</div>
+    </div>

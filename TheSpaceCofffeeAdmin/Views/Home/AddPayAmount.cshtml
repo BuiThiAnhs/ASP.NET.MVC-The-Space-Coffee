@@ -1,0 +1,58 @@
+﻿@model TheSpaceCofffeeAdmin.Models.HoaDonNhap
+
+@{
+    ViewData["Title"] = "AddPayAmount";
+    Layout = "~/Views/Shared/_Layout_Admin.cshtml";
+}
+
+<h1>Thêm Hóa Đơn Nhập</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddPayAmount">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MaHoaDonNhap" class="control-label text-white">Mã Hóa Đơn Nhập</label>
+                <input asp-for="MaHoaDonNhap" class="form-control bg-secondary" />
+                <span asp-validation-for="MaHoaDonNhap" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaVatTu" class="control-label text-white">Mã Vật Tư</label>
+                <select asp-for="MaVatTu" class="form-control bg-secondary" asp-items="ViewBag.MaVatTu"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaNhaCungCap" class="control-label text-white">Mã Nhà Cung Cấp</label>
+                <select asp-for="MaNhaCungCap" class="form-control bg-secondary" asp-items="ViewBag.MaNhaCungCap"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="NgayLap" class="control-label text-white">Ngày Lập </label>
+                <input asp-for="NgayLap" class="form-control bg-secondary" />
+                <span asp-validation-for="NgayLap" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GiaNhap" class="control-label text-white">Giá Nhập</label>
+                <input asp-for="GiaNhap" class="form-control bg-secondary" />
+                <span asp-validation-for="GiaNhap" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SoLuongNhap" class="control-label text-white">Số Lượng Nhập</label>
+                <input asp-for="SoLuongNhap" class="form-control bg-secondary" />
+                <span asp-validation-for="SoLuongNhap" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TongTien" class="control-label text-white">Tổng Tiền</label>
+                <input asp-for="TongTien" class="form-control bg-secondary" />
+                <span asp-validation-for="TongTien" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Hoàn Thành" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="PayAmount">Back to List</a>
+</div>
+

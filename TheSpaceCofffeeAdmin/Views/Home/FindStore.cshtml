@@ -1,0 +1,59 @@
+﻿@model IEnumerable<TheSpaceCofffeeAdmin.Models.TbCuaHang>
+
+@{
+    ViewData["Title"] = "FindStore";
+    Layout = "~/Views/Shared/_Layout_Admin.cshtml";
+}
+
+<h1>FindStore</h1>
+<div class="bg-secondary rounded h-75 p-4 m-1">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.TenCuaHang)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DiaChi)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.SoDienThoai)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fanpage)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TenCuaHang)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DiaChi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.SoDienThoai)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Fanpage)
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-outline-dark"> <a asp-action="EditStore" asp-route-IDCuaHang="@item.MaCuaHang">Sửa</a> </button>
+                        <button type="button" class="btn btn-outline-dark"> <a asp-action="Delete" asp-route-id="@item.MaCuaHang">Delete</a> </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

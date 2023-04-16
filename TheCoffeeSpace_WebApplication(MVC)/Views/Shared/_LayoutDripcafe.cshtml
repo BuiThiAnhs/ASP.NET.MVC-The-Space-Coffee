@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Space Coffee</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Marck+Script&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/site.css" />
+    <link rel="icon" href="../img/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <!--Start Header-->
+      <div class="second-header">
+        <div class="menu-btn">
+          <span class="menu-btn__burger"></span>
+        </div>
+        <nav class="nav">
+          <ul class="menu-nav">
+            <!--Start Search Bar-->
+            <li class="menu-nav__item">
+                <div class="search-top-wrapper">
+	                <form id="frm_search_head" action="/search">
+		                <i class="fa fa-search"></i>
+		                <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" class="txtSearch ui-autocomplete-input" name="q" placeholder="Tìm kiếm..." autocomplete="off">
+		                <button type="submit" class="tp_button chir_btn_sub">Tìm kiếm</button>
+		                <div id="searchFolding"></div>
+	                </form>
+                </div>
+            </li>
+            <!--End Search Bar-->
+            <!--Start Text Rotate-->
+            <li class="menu-nav__item header-text">
+                        <span class="txt-rotate" data-period="4000" data-rotate="[&quot;THE SPACE COFFEE&quot;,&quot;FROM IT5 WITH LOVE&quot;,&quot;WELCOME TO THE SPACE COFFEE!&quot;,&quot;SIGN BY ENNHNAHK&quot;]"><span class="wrap">PRESE</span><span class="typed-cursor">|</span>
+            </li>
+            <!--End Text Rotate-->
+            <!--Start Button Login-->
+            <li class="menu-nav__item">
+              <a asp-area="" asp-controller="Home" asp-action="SignIn" class="sign-in menu-nav__link">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                Sign In
+              </a>
+              <span class="menu-nav__link" id="slash">/</span>
+              <a asp-area="" asp-controller="Home" asp-action="SignUp" class="sign-up menu-nav__link">
+                Sign Up
+              </a>
+            </li>
+            <!--End Button Login-->
+            <br/>
+            <br/>
+            <!--Start Navigation Bar-->
+            <li class="menu-nav__item">
+              <a asp-area="" asp-controller="Home" asp-action="Index" class="logo menu-nav__link">
+                <img src="../img/favicon.png" />
+                <span class="logo-first">The Space</span>
+                <span class="logo-last">Coffee</span>
+              </a>
+            </li>
+            <li class="menu-nav__item">
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="menu-nav__link"> Home </a>
+            </li>
+            <li class="menu-nav__item">
+                <a asp-area="" asp-controller="Home" asp-action="Menu" asp-route-target="all" class="menu-nav__link"> Menu </a>
+            </li>
+            <li class="menu-nav__item">
+                 <a asp-area="" asp-controller="Home" asp-action="Services" class="menu-nav__link"> Services </a>
+            </li>
+            <li class="menu-nav__item">
+                <a asp-area="" asp-controller="Home" asp-action="Blog" class="menu-nav__link"> Blog </a>
+            </li>
+            <li class="menu-nav__item">
+                        <a asp-area="" asp-controller="Home" asp-action="Contact" class="menu-nav__link"> Contact </a>
+            </li>
+            <li class="menu-nav__item">
+              <a href="#!" class="menu-nav__link cart__openBtn">
+                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+              </a>
+            </li>
+            <!--End Navigation Bar-->
+          </ul>
+        </nav>
+      </div>
+      <!-- Shopping Cart -->
+      <div class="cart-overlay">
+        <div class="cart">
+          <div class="cart__closeBtn">
+            <i class="fas fa-window-close"></i>
+          </div>
+          <h2>
+            <i class="fa fa-cart-arrow-down"></i>
+            <span class="span-primary">Shopping</span> Cart
+            <i class="fa fa-cart-arrow-down"></i>
+          </h2>
+          <!-- JS will add items here -->
+          <div class="item1-display"></div>
+          <div class="item2-display"></div>
+          <div class="item3-display"></div>
+          <div class="item4-display"></div>
+          <div class="item5-display"></div>
+          <div class="item6-display"></div>
+          <div class="item7-display"></div>
+          <div class="item8-display"></div>
+          <div class="item9-display"></div>
+          <div class="item10-display"></div>
+          <div class="item11-display"></div>
+          <div class="item12-display"></div>
+          <div class="total"></div>
+          <br />
+          <div><a class="pay" href=""></a></div>
+        </div>
+      </div>
+    </header>
+    <main>
+        @RenderBody()
+            <!--Start Footer-->
+            <footer>
+                <div class="pages">
+                    <h1 class="title-pages">Pages</h1>
+                    <ul class="pages-text">
+                        <li class="desc-pages"><a asp-area="" asp-controller="Home" asp-action="Index" class="menu-nav__link"> Home </a></li>
+                    <li class="desc-pages"><a asp-area="" asp-controller="Home" asp-action="Menu" asp-route-target="all"  class="menu-nav__link"> Menu </a></li>
+                        <li class="desc-pages"><a asp-area="" asp-controller="Home" asp-action="Services" class="menu-nav__link"> Services </a></li>
+                        <li class="desc-pages"><a asp-area="" asp-controller="Home" asp-action="Blog" class="menu-nav__link"> Blog </a></li>
+                        <li class="desc-pages"><a asp-area="" asp-controller="Home" asp-action="Contact" class="menu-nav__link"> Contact </a></li>
+                    </ul>
+                </div>
+                <div class="description">
+                    <h1 class="title-description">Description</h1>
+                    <p class="desc-description">The Space Coffee is a cosy place where friends meet to share coffee, cakes and light meals. At night, it is transformed into a vibey eatery.</p>
+                </div>
+                <div class="follow">
+                    <h1 class="title-follow">Follow Us</h1>
+                    <div class="icons">
+                        <a href="#!">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#!">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#!">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#!">
+                            <i class="fab fa-snapchat-square"></i>
+                        </a>
+                    </div>
+                </div>
+             </footer>
+            <!--End Footer-->
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/c057664144.js" crossorigin="anonymous"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/site.js"></script>
+    <script src="../js/menu.js"></script>
+
+  </body>
+</html>
